@@ -1,2 +1,20 @@
-/venv
-/clean_data.csv
+venv
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# DVC
+!*.dvc
+!.dvc/
+
+# Models and data local
+models/*.pkl
+data/processed/*
+models/*
+
+
+# other
+.ipynb_checkpoints
